@@ -9,6 +9,8 @@ module.exports = {
 
 			animation: {
 				floating: "floating 5s ease-in-out infinite",
+				floatingSlow: "floating 10s ease-in-out infinite",
+				floatingFast: "floating 2s ease-in-out infinite",
 			},
 
 			keyframes: {

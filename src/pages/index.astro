@@ -3,18 +3,23 @@ import Layout from '../layouts/Layout.astro';
 import LandingHeader from "../components/LandingHeader.astro";
 import FirstCard from '../components/FirstCard.astro';
 import SecondCard from '../components/SecondCard.astro';
+import ThirdCard from '../components/ThirdCard.astro';
 ---
 
 <Layout title="Cris - Portfolio">
 	<main class="overflow-x-hidden">
 		<LandingHeader />
-		<section class="snap-y snap-mandatory relative w-full h-screen overflow-auto">
+		<section class="snap-y snap-mandatory relative w-full h-screen overflow-x-hidden">
 			<div class="snap-center">
 				<FirstCard />
 			</div>
 			<div class="snap-center">
 				<SecondCard />
 			</div>
+			<div class="snap-center">
+				<ThirdCard />
+			</div>
+
 		</section>
 		
 		
